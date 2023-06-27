@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: azururepo123.azurecr.io/adservice:latest
+        image: azururepo123.azurecr.io/prasannaballa/cartserivce:#{Build.BuildId}#
         ports:
         - containerPort: 7070
         env:
